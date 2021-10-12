@@ -1,0 +1,56 @@
+  <style type="text/css">
+   .CSSTabl_s { width: 100%; }
+   .CSSTabl_s TD { text-align: center; padding : 4px;
+				font-size: 110%; font-family: Verdana;
+				color :black}
+	.CSSTabl_s_Names TD { text-align: left; padding: 4px; 
+				font-size: 110%; font-family: Verdana;
+				color :black}
+				
+   .CSSCol_select {
+    width: 4%; /* ширина первой колонки */
+    background: #f88; /* цвет фона первой колонки */
+	/* padding : 8px;
+	border-width : 4px; */
+   }
+
+				
+   .CSSCol_01 {
+    width: 30%; /* ширина колонки */
+    background: #def; /* цвет фона первой колонки */
+   }
+   .CSSCol_02 {
+    width: 30%; 
+    background: #def;
+   }
+   .CSSCol_11 {
+    width: 3%; /* ширина первой колонки */
+    background: #fc0; /* цвет фона первой колонки */
+   }
+   .CSSCol_12 {
+    width: 3%; 
+    background: #fc8;
+   }
+   .CSSCol_21 {
+    width: 3%; 
+    background: #afccdb;
+   }
+   .CSSCol_22 {
+    width: 3%; 
+    background: #afccff; 
+   }   
+   .CSSCol_31 {
+    width: 3%; 
+    background: #afccdb; 
+   }
+   .CSSCol_32 {
+    width: 3%; 
+    background: #afccfb; 
+   }
+   .CSSCol_33 {
+    width: 3%; 
+    background: #afcceb; 
+   }
+
+  </style>
+
