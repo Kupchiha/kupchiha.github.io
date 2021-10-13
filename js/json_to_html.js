@@ -64,7 +64,8 @@ function getTEXT_s(){
 						
 					});
 function myfuc(){
-		Data_text_Append ()
+		
+		jQuery(document).ready(setTimeout(Data_text_Append , 3000) );
 		alert('RUN myfuc = OK! OK!  OK! OK! OK! OK!');
 };
 					
