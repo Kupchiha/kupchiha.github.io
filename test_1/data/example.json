@@ -1,0 +1,16 @@
+{
+    note1:{
+        to:'Tove',
+        from:'Jani',
+        heading:'Reminder',
+        body:'Мои дополнения/ forget me this weekend!',
+        body2:'ajax/ WWWWWWWWW',
+        body3:'ajax/ RRRRRRRR'
+		},
+    note2:{
+        body11:'1111111111WWW',
+        body12:'12121212',
+        body13:'13131313'
+    }
+	
+}
