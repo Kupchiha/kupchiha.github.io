@@ -57,12 +57,10 @@ function getTEXT_s(){
 };
 
 			
-	 jQuery(document).ready (  
-					function(){
-						jQuery('#exam').click(getTEXT_s)
-						if (ok_getJSON != 1) setTimeout(getTEXT_s, 1000);							
-						
-					});
+jQuery(document).ready 		( 
+			function()	{ jQuery('#exam').click(getTEXT_s)
+							if (ok_getJSON != 1) setTimeout(getTEXT_s, 1000);							
+						}	);
 function myfuc(){
 		
 		jQuery(document).ready(setTimeout(Data_text_Append , 6000) );
