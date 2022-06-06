@@ -1,0 +1,228 @@
+#form_booking { 
+	font-size: 13px;
+	font-family: Arial, Tahoma, verdana, Geneva, Helvetica, sans-serif;
+	border-top: 3px #e9eaeb solid;
+	clear: both;
+}
+
+#form_booking div{
+	display: inline;
+	float: left;
+	margin-right: 20px;
+}
+
+#form_booking div b {
+	display: block;
+	margin-top: 7px;
+}
+
+#form_booking input[type="text"] {
+	height: 23px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-khtml-border-radius: 2px;	
+	background: #e9eaeb;
+	border: 1px #74694d solid;
+	padding: 1px 4px 1px 4px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	box-shadow:
+	0 1px 4px rgba(0, 0, 0, .3),
+	-23px 0 20px -23px rgba(0, 0, 0, .8),
+	23px 0 20px -23px rgba(0, 0, 0, .8),
+	0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+#form_booking input[type="submit"] {
+	background: #ffffff;
+	padding: 5px 10px 5px 10px;
+	color: #000;
+	margin: 20px 0px 10px 0px;
+	color: #6e3f1c;
+	border: 2px #e9eaeb solid; 
+	font-style: normal;
+	font-weight: bold;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	text-decoration: none;
+	display: block;
+	clear: both;
+}
+
+#form_booking input[type="submit"]:hover {
+	opacity: 0.8;
+}
+
+#form_booking h3 {
+	font-style: italic;
+	margin: 0px;
+	float: left;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#form_booking h4 {
+	font-style: italic;
+	margin: 0px;
+	float: right;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+#form_booking h4 b {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+	font-weight: normal;
+	font-size: 17px;
+}
+
+.tableBooking {
+	color: #ffffff;
+	width: 100%;
+	clear: both;
+	border-collapse: collapse; 
+	margin: 0 auto;
+}
+
+.tableBooking tr {
+	vertical-align: 0px;
+}
+
+.tableBooking .pb {
+	width: 100%;
+	height: 24px;
+	display: block;
+	clear: both;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.tableBooking .pb img {
+	width: 10px;
+	height: 20px;
+}
+
+.tableBooking .pb label {
+	margin-top: 4px;
+}
+
+.tableBooking .pb:hover {
+	opacity: 0.5;
+}
+
+.tableBooking .zb {
+	background: #e9eaeb;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+}
+
+.tableBooking .z {
+	background: #e9eaeb;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	width: 70px;
+}
+
+.tableBooking .center {
+	text-align: center;
+}
+
+.tableBooking td { 
+    padding: 5px; 
+    border: 1px solid #ffffff; 
+	font-size: 13px;
+}
+
+.tableBooking td .inf {
+	font-size: 11px;
+	COLOR: #000000;
+}
+
+.tableBooking td .inf p, .tableBooking td .inf ul {
+	margin: 4px 0px 0px 0px;
+}
+
+a.commentRoom, a.commentRoom:Link, a.commentRoom:Visited, a.clearChek, a.clearChek:Link, a.clearChek:Visited { 
+	COLOR: #ffffff; 
+	font-size: 11px; 
+	TEXT-DECORATION: none;
+	display: block;
+}
+
+a.commentRoom:Hover, a.clearChek:Hover {
+	COLOR: #c4c4c4; 
+}
+
+.bookingFoto {
+	margin-top: 10px;
+}
+
+.bookingFoto img {
+	width: 82px;
+	height: 65px;
+	border: 2px #ffffff solid;
+	margin-right: 3px;
+	float: left;
+}
+
+.hiddenInf {
+	width: 99%;
+	background: #c59d75; 
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	padding: 0px 0px 5px 5px;
+}
+
+.rez_booking {
+	width: 100%;	
+}
+
+#block_booking {
+	width: 800px;	
+	background: #c59d75;
+	border: 2px #ffffff solid;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	color: #000000;
+	padding: 4px 10px 10px 10px;
+	z-index: 20;
+	font-family: Verdana, Arial, Tahoma, Geneva, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.1;
+}
+
+#block_booking h1 {
+	font-size: 18px;
+}
+ 
+#block_booking input[type="submit"] {
+	float: left;
+	background: #ffffff;
+	padding: 5px 10px 5px 10px;
+	color: #000;
+	margin: 20px 10px 10px 0px;
+	color: #6e3f1c;
+	border: 2px #e9eaeb solid; 
+	font-style: normal;
+	font-weight: bold;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	text-decoration: none;
+ }
+ 
+#block_booking input[type="submit"]:hover {
+	opacity: 0.8;
+}
