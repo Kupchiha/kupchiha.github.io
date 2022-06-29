@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://domkupchiha.ru/</loc>
+  <lastmod>2022-06-29T09:28:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://domkupchiha.ru/robots.txt.html</loc>
+  <lastmod>2022-06-29T09:28:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domkupchiha.ru/contacts.html</loc>
+  <lastmod>2022-06-28T22:45:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domkupchiha.ru/hotel-nomera-ceny.html</loc>
+  <lastmod>2022-06-28T22:45:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://domkupchiha.ru/fotogalereya.html</loc>
+  <lastmod>2022-06-29T09:28:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
