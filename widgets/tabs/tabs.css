@@ -1,0 +1,61 @@
+:root {
+  --main-bg-color-1: #c3e3cf;
+  --main-bg-color-2: rgb(172 208 201);
+}
+
+
+.tabs {
+	display: inline-block;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	box-shadow:
+	0 1px 4px rgba(0, 0, 0, .3),
+	-23px 0 20px -23px rgba(0, 0, 0, .8),
+	23px 0 20px -23px rgba(0, 0, 0, .8),
+	0 0 40px rgba(0, 0, 0, .1) inset;
+	width: 100%;
+	/* font-family: 'Open Sans Condensed', sans-serif; */
+	font-size: 24px;
+}
+.tabs > div.tab {
+	margin-top: 38px;
+}
+.tabs ul.tab {
+	margin:0px;
+	padding:0px;
+}
+.tabs ul.tab :after {
+	content:"";
+	display:block;
+	clear:both;
+	height:3px;
+	background: var(--main-bg-color-1);
+}
+.tabs ul.tab  li {
+	margin:0px;
+	padding:0px;
+	cursor:	pointer;
+	display:	block;
+	float:	left;
+	padding:12px 15px;
+	background: var(--main-bg-color-1);
+	/*color:	var(--main-bg-color-2);*/
+	color:	rgb(100, 100, 100);
+	font-style: normal;
+	font-weight: bold;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+}
+.tabs ul.tab  li.active, .tabs ul.tab  li.active:hover{
+	background:  var(--main-bg-color-2);/*rgb(127, 127, 127);*/
+	color: rgb(0, 0, 0);
+}
+.tabs ul.tab  li:hover{
+	background: 	var(--main-bg-color-2);/*rgb(127, 127, 127);*/
+}
