@@ -163,6 +163,26 @@ html, body {
 	color: #decab2;
 }
 
+.glavn img.left-m1 {
+	width: 100pt;
+	position: relative;
+	z-index: 1;
+	padding: 5px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;	
+	box-shadow:
+	0 1px 4px rgba(0, 0, 0, .3),
+	-23px 0 20px -23px rgba(0, 0, 0, .8),
+	23px 0 20px -23px rgba(0, 0, 0, .8),
+	0 0 40px rgba(0, 0, 0, .1) inset;	
+	float: left;
+	left: -1px;
+	margin: 10px 10px 12px 0px;
+}
+
+
 .glavn img.left {
 	width: 180pt;
 	position: relative;
